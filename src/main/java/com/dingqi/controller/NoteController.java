@@ -32,13 +32,20 @@ public class NoteController {
         return noteService.getNoteByCategroy(id);
     }
 
-    @PostMapping("api/update/note/{id}/info")
+    @PostMapping("api/update/{type}/note/{id}")
     @ResponseBody
-    public Response updateNote(@RequestBody Note note, @PathVariable("id") int id){
-        Note byId = noteService.getById(id);
-        byId=note;
-        byId.setCreatedTime(new Timestamp(System.currentTimeMillis()));
-        noteService.updateNote(byId);
+    public Response updateNote(@RequestBody Note requestNote, @PathVariable("id") int id,@PathVariable("type") String type){
+        Note note = noteService.getById(id);
+        if(type.equals("info")){
+
+            note.setName(requestNote.getName());
+            note.setAbs(requestNote.getAbs());
+        }else if( type.equals("content")){
+            note.setContentHtml(requestNote.getContentHtml());
+            note.setContentMd(requestNote.getContentMd());
+        }
+        note.setCreatedTime(new Timestamp(System.currentTimeMillis()));
+        noteService.updateNote(note);
         return new Response(200,"成功",null);
     }
 
@@ -55,10 +62,19 @@ public class NoteController {
         return new Response(200, "成功", null);
     }
 
-    @GetMapping("api/categories/delete/{id}")
+    @GetMapping("api/category/delete/{id}")
     @ResponseBody
     public Response delectCategory(@PathVariable("id") int id) {
         categoryService.deleteById(id);
+        return new Response(200, "成功", null);
+    }
+
+    @PostMapping("api/category/add")
+    @ResponseBody
+    public Response addCategory(@RequestBody Category requestCategory) {
+        Category category = new Category();
+        category.setName(requestCategory.getName());
+        categoryService.updateCategory(category);
         return new Response(200, "成功", null);
     }
 
@@ -68,4 +84,22 @@ public class NoteController {
         noteService.delectById(id);
         return new Response(200, "成功", null);
     }
+
+    @PostMapping("api/category/update")
+    @ResponseBody
+    public Response updateCategory(@RequestBody Category requestCategory){
+        Category category = categoryService.getById(requestCategory.getId());
+        category.setName(requestCategory.getName());
+        categoryService.updateCategory(category);
+        return new Response(200, "成功", null);
+    }
+
+    @GetMapping("api/note/{id}")
+    @ResponseBody
+    public Response getNote(@PathVariable("id")int id){
+        Note note = noteService.getById(id);
+        return new Response(200,"成功",note);
+    }
+
+
 }

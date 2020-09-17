@@ -23,4 +23,7 @@ public class CategoryService {
     public void deleteById(int id){
         categoryDao.deleteById(id);
     }
+    public void updateCategory(Category category){
+        categoryDao.save(category);
+    }
 }
