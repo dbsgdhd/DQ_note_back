@@ -35,4 +35,9 @@ public class NoteService {
         Note note = noteDao.findById(id).get();
         noteDao.delete(note);
     }
+
+    public List<Note> getAll() {
+        List<Note> all = noteDao.findAll();
+        return all;
+    }
 }

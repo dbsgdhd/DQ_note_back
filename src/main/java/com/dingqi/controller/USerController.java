@@ -61,4 +61,14 @@ public class USerController {
         }
     }
 
+
+    @GetMapping("api/logout")
+    @ResponseBody
+    public Response logout(){
+        Subject subject = SecurityUtils.getSubject();
+        subject.logout();
+        return new Response(200,"success",null);
+
+    }
+
 }

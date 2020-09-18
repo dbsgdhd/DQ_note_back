@@ -4,8 +4,8 @@
     <list default="true" id="c411df59-c6d9-471a-b6d4-6e86a3346b6f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dingqi/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingqi/controller/NoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingqi/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingqi/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dingqi/controller/NoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dingqi/controller/NoteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingqi/controller/USerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingqi/controller/USerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingqi/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingqi/service/NoteService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,16 +37,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/service/CategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="193">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#511#512#0" expanded="true" />
                 <element signature="e#564#565#0" expanded="true" />
                 <element signature="e#600#601#0" expanded="true" />
                 <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,12 +53,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/service/NoteService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="457">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#608#609#0" expanded="true" />
                 <element signature="e#658#659#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/controller/USerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/controller/NoteController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+            <state relative-caret-position="253">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/realm/CustomRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/config/ShiroConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/Response/Response.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingqi/controller/USerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/config/NoteController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/pojo/Category.java" />
@@ -118,9 +127,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/pojo/Note.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/dao/CategoryDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/dao/NoteDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingqi/service/NoteService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingqi/controller/NoteController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingqi/service/NoteService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingqi/controller/USerController.java" />
       </list>
     </option>
   </component>
@@ -147,11 +157,11 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1541" />
-    <option name="height" value="1049" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1543" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,6 +277,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -328,11 +338,12 @@
       <workItem from="1600058020510" duration="1198000" />
       <workItem from="1600072182733" duration="33020000" />
       <workItem from="1600328001651" duration="8346000" />
+      <workItem from="1600403166982" duration="1910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69520000" />
+    <option name="totallyTimeSpent" value="71430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,10 +355,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82730263" visible="true" weight="0.26976743" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82730263" visible="true" weight="0.2730897" />
       <window_info id="Structure" order="1" sideWeight="0.17269737" side_tool="true" weight="0.25980067" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -357,7 +368,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.08415147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47545582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5441795" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -699,36 +710,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/controller/USerController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/Response/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="193">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#511#512#0" expanded="true" />
             <element signature="e#564#565#0" expanded="true" />
             <element signature="e#600#601#0" expanded="true" />
             <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/controller/NoteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/service/NoteService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="457">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#608#609#0" expanded="true" />
@@ -737,17 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/Response/Response.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/controller/USerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingqi/controller/NoteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        <state relative-caret-position="129">
+          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -20,6 +20,12 @@ public class NoteController {
     @Autowired
     NoteService noteService;
 //    @CrossOrigin
+    @GetMapping("/api/notes")
+    @ResponseBody
+    public List<Note> getNotesList(){
+        return noteService.getAll();
+    }
+
     @GetMapping("/api/categories")
     @ResponseBody
     public List<Category> getCategoryList(){
