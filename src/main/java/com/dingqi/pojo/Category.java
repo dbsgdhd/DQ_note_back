@@ -16,4 +16,7 @@ public class Category {
     private int id;
     private String name;
 
+    @ManyToOne
+    @JoinColumn(name = "author")
+    private User author;
 }
